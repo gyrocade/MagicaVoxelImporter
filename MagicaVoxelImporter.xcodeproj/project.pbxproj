@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD4F2D6F21C81DE700E74601 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CD4F2D6E21C81DE700E74601 /* LICENSE */; };
 		CDE5BF591E1566D300DEBEFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE5BF581E1566D300DEBEFB /* AppDelegate.swift */; };
 		CDE5BF5D1E1566D300DEBEFB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE5BF5C1E1566D300DEBEFB /* GameViewController.swift */; };
 		CDE5BF601E1566D300DEBEFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE5BF5E1E1566D300DEBEFB /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD4F2D6E21C81DE700E74601 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CDE5BF551E1566D300DEBEFB /* MagicaVoxelImporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicaVoxelImporter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE5BF581E1566D300DEBEFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDE5BF5C1E1566D300DEBEFB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				CDE5BF721E15DDFB00DEBEFB /* UIColor+Hex.swift */,
 				CDE5BF6F1E15684600DEBEFB /* Models */,
 				CDE5BF5E1E1566D300DEBEFB /* Main.storyboard */,
+				CD4F2D6E21C81DE700E74601 /* LICENSE */,
 				CDE5BF611E1566D300DEBEFB /* Assets.xcassets */,
 				CDE5BF631E1566D300DEBEFB /* LaunchScreen.storyboard */,
 				CDE5BF661E1566D300DEBEFB /* Info.plist */,
@@ -144,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD4F2D6F21C81DE700E74601 /* LICENSE in Resources */,
 				CDE5BF651E1566D300DEBEFB /* LaunchScreen.storyboard in Resources */,
 				CDE5BF621E1566D300DEBEFB /* Assets.xcassets in Resources */,
 				CDE5BF771E15FD2900DEBEFB /* chr_rain.vox in Resources */,
