@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDE5BF591E1566D300DEBEFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE5BF581E1566D300DEBEFB /* AppDelegate.swift */; };
+		CDE5BF5D1E1566D300DEBEFB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE5BF5C1E1566D300DEBEFB /* GameViewController.swift */; };
+		CDE5BF601E1566D300DEBEFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE5BF5E1E1566D300DEBEFB /* Main.storyboard */; };
+		CDE5BF621E1566D300DEBEFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE5BF611E1566D300DEBEFB /* Assets.xcassets */; };
+		CDE5BF651E1566D300DEBEFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE5BF631E1566D300DEBEFB /* LaunchScreen.storyboard */; };
+		CDE5BF6E1E15684200DEBEFB /* chr_knight.vox in Resources */ = {isa = PBXBuildFile; fileRef = CDE5BF6D1E15684200DEBEFB /* chr_knight.vox */; };
+		CDE5BF711E156D5E00DEBEFB /* MV_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE5BF701E156D5E00DEBEFB /* MV_Model.swift */; };
+		CDE5BF731E15DDFB00DEBEFB /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE5BF721E15DDFB00DEBEFB /* UIColor+Hex.swift */; };
+		CDE5BF771E15FD2900DEBEFB /* chr_rain.vox in Resources */ = {isa = PBXBuildFile; fileRef = CDE5BF761E15FD2900DEBEFB /* chr_rain.vox */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDE5BF551E1566D300DEBEFB /* MagicaVoxelImporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicaVoxelImporter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE5BF581E1566D300DEBEFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDE5BF5C1E1566D300DEBEFB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CDE5BF5F1E1566D300DEBEFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDE5BF611E1566D300DEBEFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDE5BF641E1566D300DEBEFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDE5BF661E1566D300DEBEFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE5BF6D1E15684200DEBEFB /* chr_knight.vox */ = {isa = PBXFileReference; lastKnownFileType = file; path = chr_knight.vox; sourceTree = "<group>"; };
+		CDE5BF701E156D5E00DEBEFB /* MV_Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MV_Model.swift; sourceTree = "<group>"; };
+		CDE5BF721E15DDFB00DEBEFB /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		CDE5BF761E15FD2900DEBEFB /* chr_rain.vox */ = {isa = PBXFileReference; lastKnownFileType = file; path = chr_rain.vox; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDE5BF521E1566D300DEBEFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDE5BF4C1E1566D300DEBEFB = {
+			isa = PBXGroup;
+			children = (
+				CDE5BF571E1566D300DEBEFB /* MagicaVoxelImporter */,
+				CDE5BF561E1566D300DEBEFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDE5BF561E1566D300DEBEFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDE5BF551E1566D300DEBEFB /* MagicaVoxelImporter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDE5BF571E1566D300DEBEFB /* MagicaVoxelImporter */ = {
+			isa = PBXGroup;
+			children = (
+				CDE5BF581E1566D300DEBEFB /* AppDelegate.swift */,
+				CDE5BF5C1E1566D300DEBEFB /* GameViewController.swift */,
+				CDE5BF701E156D5E00DEBEFB /* MV_Model.swift */,
+				CDE5BF721E15DDFB00DEBEFB /* UIColor+Hex.swift */,
+				CDE5BF6F1E15684600DEBEFB /* Models */,
+				CDE5BF5E1E1566D300DEBEFB /* Main.storyboard */,
+				CDE5BF611E1566D300DEBEFB /* Assets.xcassets */,
+				CDE5BF631E1566D300DEBEFB /* LaunchScreen.storyboard */,
+				CDE5BF661E1566D300DEBEFB /* Info.plist */,
+			);
+			path = MagicaVoxelImporter;
+			sourceTree = "<group>";
+		};
+		CDE5BF6F1E15684600DEBEFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDE5BF761E15FD2900DEBEFB /* chr_rain.vox */,
+				CDE5BF6D1E15684200DEBEFB /* chr_knight.vox */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDE5BF541E1566D300DEBEFB /* MagicaVoxelImporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE5BF691E1566D300DEBEFB /* Build configuration list for PBXNativeTarget "MagicaVoxelImporter" */;
+			buildPhases = (
+				CDE5BF511E1566D300DEBEFB /* Sources */,
+				CDE5BF521E1566D300DEBEFB /* Frameworks */,
+				CDE5BF531E1566D300DEBEFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicaVoxelImporter;
+			productName = MagicaVoxelImporter;
+			productReference = CDE5BF551E1566D300DEBEFB /* MagicaVoxelImporter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDE5BF4D1E1566D300DEBEFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Gyrocade, LLC";
+				TargetAttributes = {
+					CDE5BF541E1566D300DEBEFB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5F6Z4YU8EA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CDE5BF501E1566D300DEBEFB /* Build configuration list for PBXProject "MagicaVoxelImporter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDE5BF4C1E1566D300DEBEFB;
+			productRefGroup = CDE5BF561E1566D300DEBEFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDE5BF541E1566D300DEBEFB /* MagicaVoxelImporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDE5BF531E1566D300DEBEFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE5BF651E1566D300DEBEFB /* LaunchScreen.storyboard in Resources */,
+				CDE5BF621E1566D300DEBEFB /* Assets.xcassets in Resources */,
+				CDE5BF771E15FD2900DEBEFB /* chr_rain.vox in Resources */,
+				CDE5BF601E1566D300DEBEFB /* Main.storyboard in Resources */,
+				CDE5BF6E1E15684200DEBEFB /* chr_knight.vox in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDE5BF511E1566D300DEBEFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE5BF5D1E1566D300DEBEFB /* GameViewController.swift in Sources */,
+				CDE5BF731E15DDFB00DEBEFB /* UIColor+Hex.swift in Sources */,
+				CDE5BF711E156D5E00DEBEFB /* MV_Model.swift in Sources */,
+				CDE5BF591E1566D300DEBEFB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDE5BF5E1E1566D300DEBEFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE5BF5F1E1566D300DEBEFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDE5BF631E1566D300DEBEFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE5BF641E1566D300DEBEFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDE5BF671E1566D300DEBEFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDE5BF681E1566D300DEBEFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDE5BF6A1E1566D300DEBEFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5F6Z4YU8EA;
+				INFOPLIST_FILE = MagicaVoxelImporter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gyrocade.MagicaVoxelImporter.MagicaVoxelImporter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CDE5BF6B1E1566D300DEBEFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5F6Z4YU8EA;
+				INFOPLIST_FILE = MagicaVoxelImporter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gyrocade.MagicaVoxelImporter.MagicaVoxelImporter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDE5BF501E1566D300DEBEFB /* Build configuration list for PBXProject "MagicaVoxelImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE5BF671E1566D300DEBEFB /* Debug */,
+				CDE5BF681E1566D300DEBEFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE5BF691E1566D300DEBEFB /* Build configuration list for PBXNativeTarget "MagicaVoxelImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE5BF6A1E1566D300DEBEFB /* Debug */,
+				CDE5BF6B1E1566D300DEBEFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDE5BF4D1E1566D300DEBEFB /* Project object */;
+}
