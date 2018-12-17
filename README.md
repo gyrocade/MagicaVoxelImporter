@@ -1,1 +1,1 @@
-# MagicaVoxelImporter
+# Magica Voxel Importer
